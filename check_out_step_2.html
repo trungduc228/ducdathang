@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Sbidu - Bid And Auction HTML Template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/animate.css">
+    <link rel="stylesheet" href="./assets/css/nice-select.css">
+    <link rel="stylesheet" href="./assets/css/flaticon.css">
+    <link href="./assets/css/splide.min.css" rel="stylesheet">
+    
+    <!-- <link rel="stylesheet" href="./assets/css/owl.min.css">
+    <link rel="stylesheet" href="./assets/css/magnific-popup.css"> -->
+    <!-- <link rel="stylesheet" href="./assets/css/main.css"> -->
+    <link rel="stylesheet" href="./check_out.css">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <!--============= ScrollToTop Section Starts Here =============-->
+    <div class="loading" id="loading">
+        <div class="spinner"></div>
+    </div>
+    
+        <!--============= Header Section Starts Here =============-->
+        <header>
+            <div class="header-top">
+                <div class="container">
+                    <div class="header-top-wrapper d-flex justify-content-between">
+                        <ul class="customer-support d-flex align-items-center">
+                            <li>
+                                <a href="#0" class="mr-3"><i class="fas fa-phone-alt"></i><span
+                                        class="ml-2 d-none d-sm-inline-block">Customer Support</span></a>
+                            </li>
+                            <li>
+                                <i class="fas fa-globe"></i>
+                                <select name="language" class="select-bar">
+                                    <option value="en">En</option>
+                                    <option value="Bn">Bn</option>
+                                    <option value="Rs">Rs</option>
+                                    <option value="Us">Us</option>
+                                    <option value="Pk">Pk</option>
+                                    <option value="Arg">Arg</option>
+                                </select>
+                            </li>
+                        </ul>
+                        <ul class="cart-button-area d-flex  align-items-center">
+                            <li>
+                                <a href="#0" class="cart-button"><i class="flaticon-shopping-basket"></i><span
+                                        class="amount">08</span></a>
+                            </li>
+                            <li>
+                                <a href="dashboard.htm" class="user-button"><i class="flaticon-user"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="container">
+                    <div class="header-wrapper d-flex justify-content-between">
+                        <div class="logo">
+                            <a href="./index.html">
+                                <img style="width: 100px; height:100px;" src="./assets/images/logo/logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="menu-search d-flex">
+                            <ul class="menu ml-auto d-flex">
+                                <li>
+                                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Home
+                                      </a>
+                                      <ul  class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </ul>
+                                   
+                                </li>
+                                <li>
+                                    <a href="./product.html">Auction</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Pages
+                                      </a>
+                                      <ul  class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </ul>
+                                <li>
+                                    <a href="./contact.html">Contact</a>
+                                </li>
+                            </ul>
+                            <div class="search">
+                                <form class="search-form">
+                                <input type="text" placeholder="Search for brand, model....">
+                                <button type="submit"><i class="fas fa-search"></i></button>
+                            </form>
+                            <!-- <div class="search-bar d-md-none">
+                                <a href="#0"><i class="fas fa-search"></i></a>
+                            </div> -->
+                            </div>
+                            
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--============= Header Section Ends Here =============-->
+    
+        <!--============= Cart Section Starts Here =============-->
+        <div class="cart-sidebar-area">
+            <div class="top-content">
+                <a href="index.html" class="logo">
+                    <img src="./assets/images/logo/logo.png" alt="logo">
+                </a>
+                <span class="side-sidebar-close-btn"><i class="fas fa-times"></i></span>
+            </div>
+            <div class="bottom-content">
+                <div class="cart-products">
+                    <h4 class="title">Shopping cart</h4>
+                    <div class="single-product-item">
+                        <div class="thumb">
+                            <a href="#0"><img src="assets/images/shop/shop01.jpg" alt="shop"></a>
+                        </div>
+                        <div class="content">
+                            <h4 class="title"><a href="#0">Color Pencil</a></h4>
+                            <div class="price"><span class="pprice">$80.00</span> <del class="dprice">$120.00</del></div>
+                            <a href="#" class="remove-cart"><i class="fa-solid fa-trash"></i></a>
+                        </div>
+                    </div>
+                    <div class="single-product-item">
+                        <div class="thumb">
+                            <a href="#0"><img src="assets/images/shop/shop02.jpg" alt="shop"></a>
+                        </div>
+                        <div class="content">
+                            <h4 class="title"><a href="#0">Water Pot</a></h4>
+                            <div class="price"><span class="pprice">$80.00</span> <del class="dprice">$120.00</del></div>
+                            <a href="#" class="remove-cart"><i class="fa-solid fa-trash"></i></a>
+                        </div>
+                    </div>
+                    <div class="single-product-item">
+                        <div class="thumb">
+                            <a href="#0"><img src="assets/images/shop/shop03.jpg" alt="shop"></a>
+                        </div>
+                        <div class="content">
+                            <h4 class="title"><a href="#0">Art Paper</a></h4>
+                            <div class="price"><span class="pprice">$80.00</span> <del class="dprice">$120.00</del></div>
+                            <a href="#" class="remove-cart"><i class="fa-solid fa-trash"></i></a>
+                        </div>
+                    </div>
+                    <div class="single-product-item">
+                        <div class="thumb">
+                            <a href="#0"><img src="assets/images/shop/shop04.jpg" alt="shop"></a>
+                        </div>
+                        <div class="content">
+                            <h4 class="title"><a href="#0">Stop Watch</a></h4>
+                            <div class="price"><span class="pprice">$80.00</span> <del class="dprice">$120.00</del></div>
+                            <a href="#" class="remove-cart"><i class="fa-solid fa-trash"></i></a>
+                        </div>
+                    </div>
+                    <div class="single-product-item">
+                        <div class="thumb">
+                            <a href="#0"><img src="assets/images/shop/shop05.jpg" alt="shop"></a>
+                        </div>
+                        <div class="content">
+                            <h4 class="title"><a href="#0">Comics Book</a></h4>
+                            <div class="price"><span class="pprice">$80.00</span> <del class="dprice">$120.00</del></div>
+                            <a href="#" class="remove-cart"><i class="fa-solid fa-trash"></i></a>
+                        </div>
+                    </div>
+                    <div class="btn-wrapper " >
+                        <a href="#0" class="btn custom-button text-start border rounded-0 fw-bold" style="min-width: 120px;"><span>Checkout</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--============= Cart Section Ends Here =============-->
+        <div class="main-content">
+            <div class="main-content mt-5" role="main">
+                <div class="wrap container">
+                    <div class="main">
+                        <div class="main-content">
+                            <div class="row">
+                                <div class="col-lg-7 card p-5 form-container">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-50">
+                                                <h4 class="mb-4">Payment</h4>
+                                                <div class="d-flex">
+                                                    <div class=" d-flex" style="width: 200px;">
+                                                        <input class="mr-2" type="radio" id="paycard" name="paymethod" value="paycard" onchange="PayCartSelected()" checked>
+                                                        <label style="font-size: 1.1em;" for="paycard">
+                                                            Online payment
+                                                        </label>
+                                                    </div>
+                                                    <div class="d-flex" style="width: 200px;">
+                                                        <input class="mr-2 " type="radio" id="paylater" name="paymethod" value="paylater" onchange="PayLaterSelected()">
+                                                        <label style="font-size: 1.1em;" for="paylater">
+                                                            Payment on delivery
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="display-pay-online">
+                                                    <form action="./order_status.html" method="get">
+    
+                                                        <div class="icon-container">
+                                                            <i class="fa-brands fa-cc-visa" style="color:navy;"></i>
+                                                                <i class="fa-brands fa-cc-amex" style="color:blue;"></i>
+                                                                <i class="fa-brands fa-cc-mastercard" style="color:red;"></i>
+                                                                <i class="fa-brands fa-cc-discover" style="color:orange;"></i>
+                                                        </div>
+                                                        <label for="cname">Name on Card</label>
+                                                        <input type="text" id="cname" name="cardname" placeholder="Nguyen Ngoc Duc">
+                                                        <label for="ccnum">Credit card number</label>
+                                                        <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                                                        <label for="expmonth">Exp Month</label>
+                                                        <input type="text" id="expmonth" name="expmonth" placeholder="September">
+    
+                                                        <div class="row">
+                                                            <div class="col-50">
+                                                                <label for="expyear">Exp Year</label>
+                                                                <input type="text" id="expyear" name="expyear" placeholder="2018">
+                                                            </div>
+                                                            <div class="col-50">
+                                                                <label for="cvv">CVV</label>
+                                                                <input type="text" id="cvv" name="cvv" placeholder="352">
+                                                            </div>
+                                                        </div>
+                                                        <input type="submit" value="Payment" class="btn btn-outline-info">
+                                                    </form>
+                                                    
+                                                </div>
+                                                <div class="display-pay-later  d-none mt-2">
+                                                    <div>
+                                                        <p>
+                                                            <i>You will pay when you receive the goods</i>
+                                                        </p>
+                                                    </div>
+                                                    <form action="./order_status.html" method="get">
+                                                        <input type="submit" value="Submit" class="btn btn-outline-info mt-1" />
+                                                    </form>
+                                                </div>
+                                            </div>
+    
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="col-lg-4 ml-lg-5 mb-lg-0 mb-5 card form-container p-5" style="background-color:#e3f2ff   ">
+                                    <div class="container">
+                                            <div class="d-flex justify-content-between">
+                                                <h4 class="mb-4">Cart</h4>
+                                                <div class="price d-flex" style="color:black">
+                                                    <h4 class="mr-2"><i class="fa fa-shopping-cart"></i></h4>
+                                                    <h4>1</h4>
+                                                </div>
+                                            </div>
+                                                <div class="d-flex mb-2">
+                                                    <div class="product-shoes-cart mr-3 ">
+                                                        <img class="product-shoes-image" width="80" height="80" src="./assets/images/product/01.png">
+                                                        <span class="product-shoes-number">1</span>
+                                                    </div>
+                                                    <div style="width: 80%;">
+                                                        <div class="product-shoes-name" href="#"></div>
+                                                        <div style="color:gray"><span>The Breeze Zodiac IX</span>                                                            </div>
+                                                    </div>
+                                                    
+                                                    <span class="price price-plus text-end ">
+                                                        4,200$
+                                                    </span>
+                                                </div>
+                                            <hr>            
+                                            <p>Fee ship<span class="price mt-0" style="color:black;">+500$</span></p>
+                               
+                                                <p><b>Total</b> <span class="price" style="color:black;"><b>4,700$</b></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    
+    
+        <!--============= Footer Section Starts Here =============-->
+        <footer class="">
+            <div class="footer-top padding-bottom padding-top">
+                <div class="container">
+                    <div class="row mb--60">
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-widget widget-links">
+                                <h5 class="title">Auction Categories</h5>
+                                <ul class="links-list">
+                                    <li>
+                                        <a href="#0">Ending Now</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Vehicles</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Watches</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Electronics</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Real Estate</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Jewelry</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Art</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Sports & Outdoor</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-widget widget-links">
+                                <h5 class="title">About Us</h5>
+                                <ul class="links-list">
+                                    <li>
+                                        <a href="#0">About Sbidu</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Help</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Affiliates</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Jobs</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Press</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Our blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Collectors' portal</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-widget widget-links">
+                                <h5 class="title">We're Here to Help</h5>
+                                <ul class="links-list">
+                                    <li>
+                                        <a href="#0">Your Account</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Safe and Secure</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Shipping Information</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Contact Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Help & FAQ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-widget widget-follow">
+                                <h5 class="title">Follow Us</h5>
+                                <ul class="links-list">
+                                    <li>
+                                        <a href="#0"><i class="fas fa-phone-alt"></i>(646) 663-4575</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0"><i class="fas fa-blender-phone"></i>(646) 968-0608</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0"><i class="fas fa-envelope-open-text"></i><span class="__cf_email__"
+                                                data-cfemail="e8808d8498a88d868f879c808d858dc68b8785">[email&#160;protected]</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#0"><i class="fas fa-location-arrow"></i>1201 Broadway Suite</a>
+                                    </li>
+                                </ul>
+                                <ul class="social-icons">
+                                    <li>
+                                        <a href="#0" class="active"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#0"><i class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#0"><i class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#0"><i class="fab fa-linkedin-in"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <!--============= Footer Section Ends Here =============-->
+
+
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="./assets/js/jquery-3.3.1.min.js"></script>
+    <script src="./assets/js/modernizr-3.6.0.min.js"></script>
+    <script src="./assets/js/plugins.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/nice-select.js"></script>
+    <script src="./assets/js/splide.min.js"></script>
+    <script src="assets/js/yscountdown.min.js"></script>
+    <script src="./script.js"></script>
+    <script src="./check_out.js"></script>
+
+    <!-- <script src="./assets/js/counterup.min.js"></script>
+    <script src="./assets/js/owl.min.js"></script>
+    <script src="./assets/js/magnific-popup.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="./assets/js/main.js"></script> -->
+    
+</body>
+
+</html>

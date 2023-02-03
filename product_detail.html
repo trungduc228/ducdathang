@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Detail</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/animate.css">
+    <link rel="stylesheet" href="./assets/css/nice-select.css">
+    <link rel="stylesheet" href="./assets/css/flaticon.css">
+    <link rel="stylesheet" href="./assets/css/jquery.toast.min.css">
+    <link href="./assets/css/splide.min.css" rel="stylesheet">
+    
+    <!-- <link rel="stylesheet" href="./assets/css/owl.min.css">
+    <link rel="stylesheet" href="./assets/css/magnific-popup.css"> -->
+    <!-- <link rel="stylesheet" href="./assets/css/main.css"> -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <!--============= ScrollToTop Section Starts Here =============-->
+    <div class="loading" id="loading">
+        <div class="spinner"></div>
+    </div>
+    <div id="content" class="d-none">
+        <a href="#0" class="scrollToTop"><i class="fas fa-angle-up"></i></a>
+        <div class="overlay"></div>
+        <!--============= ScrollToTop Section Ends Here =============-->
+    
+    
+        <!--============= Header Section Starts Here =============-->
+        <header>
+            <div class="header-top">
+                <div class="container">
+                    <div class="header-top-wrapper d-flex justify-content-between">
+                        <ul class="customer-support d-flex align-items-center">
+                            <li>
+                                <a href="#0" class="mr-3"><i class="fas fa-phone-alt"></i><span
+                                        class="ml-2 d-none d-sm-inline-block">Customer Support</span></a>
+                            </li>
+                            <li>
+                                <i class="fas fa-globe"></i>
+                                <select name="language" class="select-bar">
+                                    <option value="en">En</option>
+                                    <option value="Bn">Bn</option>
+                                    <option value="Rs">Rs</option>
+                                    <option value="Us">Us</option>
+                                    <option value="Pk">Pk</option>
+                                    <option value="Arg">Arg</option>
+                                </select>
+                            </li>
+                        </ul>
+                        <ul class="cart-button-area d-flex  align-items-center">
+                            <li>
+                                <a href="#0" class="cart-button"><i class="flaticon-shopping-basket"></i><span
+                                        class="amount">08</span></a>
+                            </li>
+                            <li>
+                                <a href="dashboard.htm" class="user-button"><i class="flaticon-user"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="container">
+                    <div class="header-wrapper d-flex justify-content-between">
+                        <div class="logo">
+                            <a href="./index.html">
+                                <img style="width: 100px; height:100px;" src="./assets/images/logo/logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="menu-search d-flex">
+                            <ul class="menu ml-auto d-flex">
+                                <li>
+                                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Home
+                                      </a>
+                                      <ul  class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </ul>
+                                   
+                                </li>
+                                <li>
+                                    <a href="./product.html">Auction</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Pages
+                                      </a>
+                                      <ul  class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </ul>
+                                <li>
+                                    <a href="./contact.html">Contact</a>
+                                </li>
+                            </ul>
+                            <div class="search">
+                                <form class="search-form">
+                                <input type="text" placeholder="Search for brand, model....">
+                                <button type="submit"><i class="fas fa-search"></i></button>
+                            </form>
+                            <!-- <div class="search-bar d-md-none">
+                                <a href="#0"><i class="fas fa-search"></i></a>
+                            </div> -->
+                            </div>
+                            
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--============= Header Section Ends Here =============-->
+    
+        <!--============= Cart Section Starts Here =============-->
+        <div class="cart-sidebar-area">
+            <div class="top-content">
+                <a href="index.html" class="logo">
+                    <img src="./assets/images/logo/logo.png" alt="logo">
+                </a>
+                <span class="side-sidebar-close-btn"><i class="fas fa-times"></i></span>
+            </div>
+            <div class="bottom-content">
+                <div class="cart-products">
+                    <h4 class="title">Shopping cart</h4>
+                    <div class="single-product-item">
+                        <div class="thumb">
+                            <a href="#0"><img src="assets/images/shop/shop01.jpg" alt="shop"></a>
+                        </div>
+                        <div class="content">
+                            <h4 class="title"><a href="#0">Color Pencil</a></h4>
+                            <div class="price"><span class="pprice">$80.00</span> <del class="dprice">$120.00</del></div>
+                            <a href="#" class="remove-cart"><i class="fa-solid fa-trash"></i></a>
+                        </div>
+                    </div>
+                    <div class="single-product-item">
+                        <div class="thumb">
+                            <a href="#0"><img src="assets/images/shop/shop02.jpg" alt="shop"></a>
+                        </div>
+                        <div class="content">
+                            <h4 class="title"><a href="#0">Water Pot</a></h4>
+                            <div class="price"><span class="pprice">$80.00</span> <del class="dprice">$120.00</del></div>
+                            <a href="#" class="remove-cart"><i class="fa-solid fa-trash"></i></a>
+                        </div>
+                    </div>
+                    <div class="single-product-item">
+                        <div class="thumb">
+                            <a href="#0"><img src="assets/images/shop/shop03.jpg" alt="shop"></a>
+                        </div>
+                        <div class="content">
+                            <h4 class="title"><a href="#0">Art Paper</a></h4>
+                            <div class="price"><span class="pprice">$80.00</span> <del class="dprice">$120.00</del></div>
+                            <a href="#" class="remove-cart"><i class="fa-solid fa-trash"></i></a>
+                        </div>
+                    </div>
+                    <div class="single-product-item">
+                        <div class="thumb">
+                            <a href="#0"><img src="assets/images/shop/shop04.jpg" alt="shop"></a>
+                        </div>
+                        <div class="content">
+                            <h4 class="title"><a href="#0">Stop Watch</a></h4>
+                            <div class="price"><span class="pprice">$80.00</span> <del class="dprice">$120.00</del></div>
+                            <a href="#" class="remove-cart"><i class="fa-solid fa-trash"></i></a>
+                        </div>
+                    </div>
+                    <div class="single-product-item">
+                        <div class="thumb">
+                            <a href="#0"><img src="assets/images/shop/shop05.jpg" alt="shop"></a>
+                        </div>
+                        <div class="content">
+                            <h4 class="title"><a href="#0">Comics Book</a></h4>
+                            <div class="price"><span class="pprice">$80.00</span> <del class="dprice">$120.00</del></div>
+                            <a href="#" class="remove-cart"><i class="fa-solid fa-trash"></i></a>
+                        </div>
+                    </div>
+                    <div class="btn-wrapper " >
+                        <a href="./check_out.html" class="btn custom-button text-start border rounded-0 fw-bold" style="min-width: 120px;"><span>Checkout</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--============= Cart Section Ends Here =============-->
+    
+    
+        <!--============= Hero Section Starts Here =============-->
+        <!-- <div class="hero-section style-2">
+            <div class="container">
+                <ul class="breadcrumb">
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#0">Pages</a>
+                    </li>
+                    <li>
+                        <span>Vehicles</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="bg_img hero-bg bottom_center" data-background="./assets/images/banner/hero-bg.png"></div>
+        </div> -->
+        <!--============= Hero Section Ends Here =============-->
+    
+    
+        <!--============= Product Details Section Starts Here =============-->
+        <div class="container main-content">
+            <section id="main-carousel" class="splide" aria-label="Beautiful Images">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <img src="./assets/images/product/product1.png" alt="">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="./assets/images/product/product2.png" alt="">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="./assets/images/product/product3.png" alt="">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="./assets/images/product/product4.png" alt="">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="./assets/images/product/product5.png" alt="">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="./assets/images/product/product6.png" alt="">
+                            
+                        </li>
+                        <li class="splide__slide">
+                            <img src="./assets/images/product/product1.png" alt="">
+                            
+                        </li>
+                    </ul>
+                </div>
+              </section>
+            <section
+                id="thumbnail-carousel"
+                class="splide"
+                aria-label="The carousel with thumbnails. Selecting a thumbnail will change the Beautiful Gallery carousel."
+                >
+                <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <img src="./assets/images/product/product1.png" alt="">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="./assets/images/product/product2.png" alt="">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="./assets/images/product/product3.png" alt="">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="./assets/images/product/product4.png" alt="">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="./assets/images/product/product5.png" alt="">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="./assets/images/product/product6.png" alt="">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="./assets/images/product/product1.png" alt="">
+
+                                
+                            </li>
+                        </ul>
+                </div>
+            </section>
+            <div class="row" style="margin-top: 80px;">
+                <div class="product-details-header container">
+                            <h2 class="title">The Breeze Zodiac IX</h2>
+                            <ul>
+                                <li>Listing ID: 14076242</li>
+                                <li>Item #: 7300-3356862</li>
+                            </ul>
+                        </div>
+                <div class="col-lg-8">
+                    <div class="product-details-content">
+                        
+                        <ul class="price-table mb-30">
+                            <li class="header">
+                                <h5 class="current">Current Price</h5>
+                                <h3 class="price">US $700.00</h3>
+                            </li>
+                            <li>
+                                <span class="details">Buyer's Premium</span>
+                                <h5 class="info">10.00%</h5>
+                            </li>
+                            <li>
+                                <span class="details">Bid Increment (US)</span>
+                                <h5 class="info">$50.00</h5>
+                            </li>
+                        </ul>
+                        
+                        <div class="buy-now-area d-flex flex-wrap">
+                            <a href="#0" class="btn-buy">Buy Now: $4,200</a>
+                            <a href="#0" class="btn-wishlist active border"><i class="fas fa-star" style="color: orange;"></i> Add to
+                                Wishlist</a>
+                            <div class="share-area">
+                                <span>Share to:</span>
+                                <ul class="d-flex flex-wrap">
+                                    <li>
+                                        <a href="#0"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#0"><i class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#0"><i class="fab fa-linkedin-in"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#0"><i class="fab fa-instagram"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="product-sidebar-area border p-3 pt-4 pe-3">
+                        <div class="product-single-sidebar mb-3">
+                            <h4 class="title">This Auction Ends in:</h4>
+                            <div class="countdown">
+                                <div id="counter" class="h4 text-danger opacity-75">0d : 11h : 10m : 8s
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="side-counter-area">
+                                <div class="product-bid-area ">
+                                    <form class="product-bid-form d-flex justify-content-between align-items-center w-100">
+                                        <input type="text" class="form-control mr-2" placeholder="Enter you bid amount">
+                                        <button type="submit" class="custom-button border-0" style="background: inherit; outline: none;">
+                                            <div class="search-icon">
+                                                <img src="./assets/images/product/search-icon.png" alt="product">
+                                            </div>
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>       
+                    </div>
+                    <a href="#0" class="cart-link" style="text-decoration:underline;">View Shipping, Payment & Auction Policies</a>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="product-tab-menu-area mb-40-60 mt-70-100">
+            <div class="container">
+                <ul class="product-tab-menu nav nav-tabs">
+                    <li>
+                        <a href="#details" class="active" data-toggle="tab">
+                            <div class="thumb">
+                                <img src="./assets/images/product/tab1.png" alt="product">
+                            </div>
+                            <div class="content">Description</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#delevery" data-toggle="tab">
+                            <div class="thumb">
+                                <img src="./assets/images/product/tab2.png" alt="product">
+                            </div>
+                            <div class="content">Delivery Options</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#history" data-toggle="tab">
+                            <div class="thumb">
+                                <img src="./assets/images/product/tab3.png" alt="product">
+                            </div>
+                            <div class="content">Bid History (36)</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#questions" data-toggle="tab">
+                            <div class="thumb">
+                                <img src="./assets/images/product/tab4.png" alt="product">
+                            </div>
+                            <div class="content">Questions </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div> -->
+        <hr class="container mt-5 mb-1">
+        <div class="container mt-5">
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="details">
+                    <div class="tab-details-content">
+                        <div class="header-area">
+                            <h3 class="title">2012 Ford Escape Hybrid (Brooklyn, NY 11214)</h3>
+                            <div class="item">
+                                <table class="product-info-table">
+                                    <tbody>
+                                        <tr>
+                                            <th>Condition</th>
+                                            <td>New</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Mileage</th>
+                                            <td>15,000 miles</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Year</th>
+                                            <td>09-2017</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Engine</th>
+                                            <td>I-4 1,5 l</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Fuel</th>
+                                            <td>Regular</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Transmission</th>
+                                            <td>Automatic</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Color</th>
+                                            <td>Blue</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Doors</th>
+                                            <td>5</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="item">
+                                <h5 class="subtitle">NYC Fleet / DCAS units may be located at either of two locations:
+                                </h5>
+                                <ul>
+                                    <li>Brooklyn, NY (1908 Shore Parkway)</li>
+                                    <li>Medford, NY (66 Peconic Ave)</li>
+                                </ul>
+                            </div>
+                            <div class="item">
+                                <h5 class="subtitle">This unit is located at:</h5>
+                                <ul>
+                                    <li>Kenben Industries Ltd.</li>
+                                    <li>1908 Shore Parkway</li>
+                                    <li>Brooklyn, NY 11214</li>
+                                </ul>
+                            </div>
+                            <div class="item">
+                                <h5 class="subtitle">Acceptance of condition - buyer inspection/preview</h5>
+                                <p>Vehicles and equipment often display significant wear and tear. Assets are sold AS IS
+                                    with no warranty, express or implied, and we highly recommend previewing them before
+                                    bidding. The preview period is the only opportunity to inspect an asset to verify
+                                    condition and suitability. No refunds, adjustments or returns will be entertained.
+                                </p>
+                                <p>Vehicle preview inspections of the vehicle can be done at the below location on
+                                    Monday and Tuesday from 10am - 2pm. See Preview Rules Here.</p>
+                                <ul>
+                                    <li>Kenben Industries Ltd.</li>
+                                    <li>1908 Shore Parkway</li>
+                                    <li>Brooklyn, NY 11214</li>
+                                </ul>
+                                <p>BUYER is responsible for all storage fees at time of pick-up. See above under
+                                    IMPORTANT PICK-UP TIMES for specific requirements for this asset, but generally
+                                    assets must be picked up within 2 business days of payment otherwise additional
+                                    storage fees will be applied.</p>
+                            </div>
+                            <div class="item">
+                                <h5 class="subtitle">Legal Notice</h5>
+                                <p>Vehicles may not be driven off the lot except with a dealer plate affixed. By law,
+                                    vehicles are not permitted to be parked on or to drive on the streets of New York
+                                    without registration and plates registered to the vehicle. If the buyer cannot
+                                    obtain the required registration and plates prior to pick up, they should have the
+                                    vehicle towed at their own expense. The buyer should have the vehicle towed at their
+                                    own expense.</p>
+                                <p>Condition: Untested - Sold As-Is</p>
+                                <p>Employees of Sbidu, its subcontractors and affiliated companies, employees of the NYC
+                                    Government and those bidding on behalf of PropertyRoom.com, its subcontractors and
+                                    affiliated companies and employees of the NYC Government are not permitted to bid on
+                                    or purchase NYC Fleet/DCAS assets. </p>
+                            </div>
+                            <div class="item">
+                                <h5 class="subtitle">Condition</h5>
+                                <p>This ASSET is being listed on behalf of a law enforcement agency or other partner
+                                    ("SELLER") by PropertyRoom.com on a Sold AS IS, WHERE IS, WITH ALL FAULTS basis,
+                                    with no representation or warranty from PropertyRoom.com or SELLER. In many cases,
+                                    the car, boat, truck, motorcycle, aircraft, mowers/tractors, etc. ("ASSET") sold on
+                                    PropertyRoom.com comes from seizure or forfeiture, and the SELLER typically does not
+                                    possess use-based knowledge of the ASSET. Further, PropertyRoom.com does not
+                                    physically inspect the ASSET and cannot attest to actual working conditions.
+                                    PropertyRoom.com and SELLER gather information about the ASSET from authoritative
+                                    sources; still, errors may appear from time to time in the listing. PropertyRoom.com
+                                    cautions any website user, shopper, bidder, etc. ("BUYER") to attempt to confirm,
+                                    with us, information material to a bidding/purchasing decision.</p>
+                            </div>
+                            <div class="item">
+                                <h5 class="subtitle">Bidding</h5>
+                                <p>At this time Sbidu only accepts bidders from the United States, Canada and Mexico on
+                                    Vehicles and Heavy Industrial Equipment. The Bid Now button will appear on auctions
+                                    where you are qualified to place a bid.</p>
+                            </div>
+                            <div class="item">
+                                <h5 class="subtitle">Buyer Responsibility</h5>
+                                <p>The BUYER will receive an email notification from PropertyRoom.com following the
+                                    close of an auction. After fraud verification and payment settlement, we will email
+                                    the BUYER instructions for retrieving the ASSET from the Will-Call Location listed
+                                    above.</p>
+                                <p>All applicable shipping, logistics, transportation, customs, fees, taxes,
+                                    export/import activities and all associated costs are the sole responsibility of the
+                                    BUYER. No shipping, customs, export or import assistance is available from Sbidu.
+                                </p>
+                                <p>When applicable for a given ASSET, BUYER bears responsibility for determining motor
+                                    vehicle registration requirements in the applicable jurisdiction as well as costs,
+                                    including any fees, registration fees, taxes, etc., owed as a result of BUYER
+                                    registering an ASSET; for example, BUYER bears sole responsibility for all
+                                    title/registration/smog and other such fees.</p>
+                                <p>BUYER is responsible for all storage fees at time of pick-up. See above under
+                                    IMPORTANT PICK-UP TIMES for specific requirements for this asset, but generally
+                                    assets must be picked up within 2 business days of payment otherwise additional
+                                    storage fees will be applied.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+        </div>
+                
+        <!--============= Product Details Section Ends Here =============-->
+    
+    
+        <!--============= Footer Section Starts Here =============-->
+        <footer class="">
+            <div class="footer-top padding-bottom padding-top">
+                <div class="container">
+                    <div class="row mb--60">
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-widget widget-links">
+                                <h5 class="title">Auction Categories</h5>
+                                <ul class="links-list">
+                                    <li>
+                                        <a href="#0">Ending Now</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Vehicles</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Watches</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Electronics</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Real Estate</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Jewelry</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Art</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Sports & Outdoor</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-widget widget-links">
+                                <h5 class="title">About Us</h5>
+                                <ul class="links-list">
+                                    <li>
+                                        <a href="#0">About Sbidu</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Help</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Affiliates</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Jobs</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Press</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Our blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Collectors' portal</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-widget widget-links">
+                                <h5 class="title">We're Here to Help</h5>
+                                <ul class="links-list">
+                                    <li>
+                                        <a href="#0">Your Account</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Safe and Secure</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Shipping Information</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Contact Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Help & FAQ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-widget widget-follow">
+                                <h5 class="title">Follow Us</h5>
+                                <ul class="links-list">
+                                    <li>
+                                        <a href="#0"><i class="fas fa-phone-alt"></i>(646) 663-4575</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0"><i class="fas fa-blender-phone"></i>(646) 968-0608</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0"><i class="fas fa-envelope-open-text"></i><span class="__cf_email__"
+                                                data-cfemail="e8808d8498a88d868f879c808d858dc68b8785">[email&#160;protected]</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#0"><i class="fas fa-location-arrow"></i>1201 Broadway Suite</a>
+                                    </li>
+                                </ul>
+                                <ul class="social-icons">
+                                    <li>
+                                        <a href="#0" class="active"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#0"><i class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#0"><i class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#0"><i class="fab fa-linkedin-in"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <!--============= Footer Section Ends Here =============-->
+
+
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="./assets/js/jquery-3.3.1.min.js"></script>
+    <script src="./assets/js/modernizr-3.6.0.min.js"></script>
+    <script src="./assets/js/plugins.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/nice-select.js"></script>
+    <script src="./assets/js/splide.min.js"></script>
+    <script src="assets/js/yscountdown.min.js"></script>
+    <script src="./assets/js/jquery.toast.min.js"></script>
+
+    <script src="./script.js"></script>
+    <!-- <script src="./assets/js/counterup.min.js"></script>
+    <script src="./assets/js/owl.min.js"></script>
+    <script src="./assets/js/magnific-popup.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="./assets/js/main.js"></script> -->
+
+</body>
+
+</html>

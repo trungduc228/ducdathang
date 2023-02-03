@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Detail</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/animate.css">
+    <link rel="stylesheet" href="./assets/css/nice-select.css">
+    <link rel="stylesheet" href="./assets/css/flaticon.css">
+    <link rel="stylesheet" href="./assets/css/jquery.toast.min.css">
+    <link href="./assets/css/splide.min.css" rel="stylesheet">
+    
+    <!-- <link rel="stylesheet" href="./assets/css/owl.min.css">
+    <link rel="stylesheet" href="./assets/css/magnific-popup.css"> -->
+    <!-- <link rel="stylesheet" href="./assets/css/main.css"> -->
+    <link rel="stylesheet" href="./products.css">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <!--============= ScrollToTop Section Starts Here =============-->
+    <div class="loading" id="loading">
+        <div class="spinner"></div>
+    </div>
+    <div id="content" class="d-none">
+        <a href="#0" class="scrollToTop"><i class="fas fa-angle-up"></i></a>
+        <div class="overlay"></div>
+        <!--============= ScrollToTop Section Ends Here =============-->
+    
+    
+        <!--============= Header Section Starts Here =============-->
+        <header>
+            <div class="header-top">
+                <div class="container">
+                    <div class="header-top-wrapper d-flex justify-content-between">
+                        <ul class="customer-support d-flex align-items-center">
+                            <li>
+                                <a href="#0" class="mr-3"><i class="fas fa-phone-alt"></i><span
+                                        class="ml-2 d-none d-sm-inline-block">Customer Support</span></a>
+                            </li>
+                            <li>
+                                <i class="fas fa-globe"></i>
+                                <select name="language" class="select-bar">
+                                    <option value="en">En</option>
+                                    <option value="Bn">Bn</option>
+                                    <option value="Rs">Rs</option>
+                                    <option value="Us">Us</option>
+                                    <option value="Pk">Pk</option>
+                                    <option value="Arg">Arg</option>
+                                </select>
+                            </li>
+                        </ul>
+                        <ul class="cart-button-area d-flex  align-items-center">
+                            <li>
+                                <a href="#0" class="cart-button"><i class="flaticon-shopping-basket"></i><span
+                                        class="amount">08</span></a>
+                            </li>
+                            <li>
+                                <a href="dashboard.htm" class="user-button"><i class="flaticon-user"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="container">
+                    <div class="header-wrapper d-flex justify-content-between">
+                        <div class="logo">
+                            <a href="./index.html">
+                                <img style="width: 100px; height:100px;" src="./assets/images/logo/logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="menu-search d-flex">
+                            <ul class="menu ml-auto d-flex">
+                                <li>
+                                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Home
+                                      </a>
+                                      <ul  class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </ul>
+                                   
+                                </li>
+                                <li>
+                                    <a href="./product.html">Auction</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Pages
+                                      </a>
+                                      <ul  class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </ul>
+                                <li>
+                                    <a href="./contact.html">Contact</a>
+                                </li>
+                            </ul>
+                            <div class="search">
+                                <form class="search-form">
+                                <input type="text" placeholder="Search for brand, model....">
+                                <button type="submit"><i class="fas fa-search"></i></button>
+                            </form>
+                            <!-- <div class="search-bar d-md-none">
+                                <a href="#0"><i class="fas fa-search"></i></a>
+                            </div> -->
+                            </div>
+                            
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--============= Header Section Ends Here =============-->
+    
+        <!--============= Cart Section Starts Here =============-->
+        <div class="cart-sidebar-area">
+            <div class="top-content">
+                <a href="index.html" class="logo">
+                    <img src="./assets/images/logo/logo.png" alt="logo">
+                </a>
+                <span class="side-sidebar-close-btn"><i class="fas fa-times"></i></span>
+            </div>
+            <div class="bottom-content">
+                <div class="cart-products">
+                    <h4 class="title">Shopping cart</h4>
+                    <div class="single-product-item">
+                        <div class="thumb">
+                            <a href="#0"><img src="assets/images/shop/shop01.jpg" alt="shop"></a>
+                        </div>
+                        <div class="content">
+                            <h4 class="title"><a href="#0">Color Pencil</a></h4>
+                            <div class="price"><span class="pprice">$80.00</span> <del class="dprice">$120.00</del></div>
+                            <a href="#" class="remove-cart"><i class="fa-solid fa-trash"></i></a>
+                        </div>
+                    </div>
+                    <div class="single-product-item">
+                        <div class="thumb">
+                            <a href="#0"><img src="assets/images/shop/shop02.jpg" alt="shop"></a>
+                        </div>
+                        <div class="content">
+                            <h4 class="title"><a href="#0">Water Pot</a></h4>
+                            <div class="price"><span class="pprice">$80.00</span> <del class="dprice">$120.00</del></div>
+                            <a href="#" class="remove-cart"><i class="fa-solid fa-trash"></i></a>
+                        </div>
+                    </div>
+                    <div class="single-product-item">
+                        <div class="thumb">
+                            <a href="#0"><img src="assets/images/shop/shop03.jpg" alt="shop"></a>
+                        </div>
+                        <div class="content">
+                            <h4 class="title"><a href="#0">Art Paper</a></h4>
+                            <div class="price"><span class="pprice">$80.00</span> <del class="dprice">$120.00</del></div>
+                            <a href="#" class="remove-cart"><i class="fa-solid fa-trash"></i></a>
+                        </div>
+                    </div>
+                    <div class="single-product-item">
+                        <div class="thumb">
+                            <a href="#0"><img src="assets/images/shop/shop04.jpg" alt="shop"></a>
+                        </div>
+                        <div class="content">
+                            <h4 class="title"><a href="#0">Stop Watch</a></h4>
+                            <div class="price"><span class="pprice">$80.00</span> <del class="dprice">$120.00</del></div>
+                            <a href="#" class="remove-cart"><i class="fa-solid fa-trash"></i></a>
+                        </div>
+                    </div>
+                    <div class="single-product-item">
+                        <div class="thumb">
+                            <a href="#0"><img src="assets/images/shop/shop05.jpg" alt="shop"></a>
+                        </div>
+                        <div class="content">
+                            <h4 class="title"><a href="#0">Comics Book</a></h4>
+                            <div class="price"><span class="pprice">$80.00</span> <del class="dprice">$120.00</del></div>
+                            <a href="#" class="remove-cart"><i class="fa-solid fa-trash"></i></a>
+                        </div>
+                    </div>
+                    <div class="btn-wrapper " >
+                        <a href="./check_out.html" class="btn custom-button text-start border rounded-0 fw-bold" style="min-width: 120px;"><span>Checkout</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--============= Cart Section Ends Here =============-->
+    
+    
+        <!--============= Hero Section Starts Here =============-->
+        <!-- <div class="hero-section style-2">
+            <div class="container">
+                <ul class="breadcrumb">
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#0">Pages</a>
+                    </li>
+                    <li>
+                        <span>Vehicles</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="bg_img hero-bg bottom_center" data-background="./assets/images/banner/hero-bg.png"></div>
+        </div> -->
+        <!--============= Hero Section Ends Here =============-->
+    
+    
+        <!--============= Product Details Section Starts Here =============-->
+        <div class="container main-content">
+            <div class="text-right mb-2">
+                <a href="./products.html" class="arrange-1 btn btn-outline-info active">
+                    <img  src="./assets/images/filter/more.png" width="24">
+
+                </a>
+                <a href="./products_2.html" class="arrange-2 btn btn-outline-info">
+                    <img  src="./assets/images/filter/select-all.png" width="24">
+
+                </a>
+
+            </div>
+            <section class="trending-section padding-bottom padding-top">
+                <div class="container">
+                    <div class="row justify-content-center mb-30-none">
+                        <div class="filter col-md-3 d-none d-md-block card p-1 h-100">
+                            <div>
+                                <div class="text-center pt-2 d-flex justify-content-center">
+                                    <div class="">
+                                        <img  src="./assets/images/filter/filter.png" width="36">
+                                    </div>
+                                    <div class="h5 home__category-name ml-2">Filter</div>
+                                </div>
+                                <hr>
+                                <ul>
+                                    <li>
+                                        <span class="v-badge home__category-item">
+                                            <div class="layout column align-center d-flex">
+                                                <div class="flex box-category">
+                                                    <img  src="./assets/images/filter/select-all.png" width="48">
+                                                </div>
+                                                <div class="flex home__category-name ml-2">All</div>
+                                            </div>
+                                        </span>
+                                    </li>
+                                    <li class="active">
+                                        <span class="v-badge home__category-item">
+                                            <div class="layout column align-center d-flex">
+                                                <div class="flex box-category">
+                                                    <img  src="./assets/images/filter/scooter active.png" width="48">
+                                                </div>
+                                                <div class="flex home__category-name ml-2">Scooter</div>
+                                            </div>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="v-badge home__category-item">
+                                            <div class="layout column align-center d-flex">
+                                                <div class="flex box-category">
+                                                    <img  src="./assets/images/filter/motorcycle.png" width="48">
+                                                </div>
+                                                <div class="flex home__category-name ml-2">Scooter</div>
+                                            </div>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="v-badge home__category-item">
+                                            <div class="layout column align-center d-flex">
+                                                <div class="flex box-category">
+                                                    <img  src="./assets/images/filter/scooter.png" width="48">
+                                                </div>
+                                                <div class="flex home__category-name ml-2">Scooter</div>
+                                            </div>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="v-badge home__category-item">
+                                            <div class="layout column align-center d-flex">
+                                                <div class="flex box-category">
+                                                    <img  src="./assets/images/filter/electric.png" width="48">
+                                                </div>
+                                                <div class="flex home__category-name ml-2">Scooter</div>
+                                            </div>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="products col-md-9 col-12 w-100">
+                            <div class="col-md-6 col-lg-12">
+                                <div class="auction-item-6">
+                                    <div class="auction-inner">
+                                        <div class="auction-thumb">
+                                            <a href="./product-details.html"><img
+                                                    src="./assets/images/auction/trending/auction-1.png" alt="trending"></a>
+                                            <a href="#0" class="rating"><i class="far fa-star"></i></a>
+                                        </div>
+                                        <div class="auction-content">
+                                            <h5 class="title"><a href="./product-details.html">2016 KIA Optima, EX</a></h5>
+                                            <div class="item-information">
+                                                <ul>
+                                                    <li><span>Number</span>1-38005900</li>
+                                                    <li><span>VIN</span>2G1WG5EK3B1312245</li>
+                                                    <li><span>Milage</span> 153k miles (246k km)</li>
+                                                    <li><span>Location</span>Sandston (VA)</li>
+                                                </ul>
+                                                <ul>
+                                                    <li><span>Engine</span>2.0 Diesel</li>
+                                                    <li><span>Transmission</span>Automated</li>
+                                                    <li><span>Body</span>Offroad car</li>
+                                                    <li><div class="btn-detail"><a href="./product_detail.html">Description</a></div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-12">
+                                <div class="auction-item-6">
+                                    <div class="auction-inner">
+                                        <div class="auction-thumb">
+                                            <a href="./product-details.html"><img
+                                                    src="./assets/images/auction/trending/auction-2.png" alt="trending"></a>
+                                            <a href="#0" class="rating"><i class="far fa-star"></i></a>
+                                        </div>
+                                        <div class="auction-content">
+                                            <h5 class="title"><a href="./product-details.html">2019 Polaris General, 1000 Eps</a>
+                                            </h5>
+                                            <div class="item-information">
+                                                <ul>
+                                                    <li><span>Number</span>1-38005900</li>
+                                                    <li><span>VIN</span>2G1WG5EK3B1312245</li>
+                                                    <li><span>Milage</span> 153k miles (246k km)</li>
+                                                    <li><span>Location</span>Sandston (VA)</li>
+                                                </ul>
+                                                <ul>
+                                                    <li><span>Engine</span>2.0 Diesel</li>
+                                                    <li><span>Transmission</span>Automated</li>
+                                                    <li><span>Body</span>Offroad car</li>
+                                                    <li><div class="btn-detail"><a href="./product_detail.html">Description</a></div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-12">
+                                <div class="auction-item-6">
+                                    <div class="auction-inner">
+                                        <div class="auction-thumb">
+                                            <a href="./product-details.html"><img
+                                                    src="./assets/images/auction/trending/auction-3.png" alt="trending"></a>
+                                            <a href="#0" class="rating"><i class="far fa-star"></i></a>
+                                        </div>
+                                        <div class="auction-content">
+                                            <h5 class="title"><a href="./product-details.html">2018 Hyundai Elantra,
+                                                    Sel/Value/Limited</a></h5>
+                                            <div class="item-information">
+                                                <ul>
+                                                    <li><span>Number</span>1-38005900</li>
+                                                    <li><span>VIN</span>2G1WG5EK3B1312245</li>
+                                                    <li><span>Milage</span> 153k miles (246k km)</li>
+                                                    <li><span>Location</span>Sandston (VA)</li>
+                                                </ul>
+                                                <ul>
+                                                    <li><span>Engine</span>2.0 Diesel</li>
+                                                    <li><span>Transmission</span>Automated</li>
+                                                    <li><span>Body</span>Offroad car</li>
+                                                    <li><div class="btn-detail"><a href="./product_detail.html">Description</a></div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-12">
+                                <div class="auction-item-6">
+                                    <div class="auction-inner">
+                                        <div class="auction-thumb">
+                                            <a href="./product-details.html"><img
+                                                    src="./assets/images/auction/trending/auction-4.png" alt="trending"></a>
+                                            <a href="#0" class="rating"><i class="far fa-star"></i></a>
+                                        </div>
+                                        <div class="auction-content">
+                                            <h5 class="title"><a href="./product-details.html">2018 Toyota Camry,
+                                                    L/Le/Xle/Se/Xse</a></h5>
+                                            <div class="item-information">
+                                                <ul>
+                                                    <li><span>Number</span>1-38005900</li>
+                                                    <li><span>VIN</span>2G1WG5EK3B1312245</li>
+                                                    <li><span>Milage</span> 153k miles (246k km)</li>
+                                                    <li><span>Location</span>Sandston (VA)</li>
+                                                </ul>
+                                                <ul>
+                                                    <li><span>Engine</span>2.0 Diesel</li>
+                                                    <li><span>Transmission</span>Automated</li>
+                                                    <li><span>Body</span>Offroad car</li>
+                                                    <li><div class="btn-detail"><a href="./product_detail.html">Description</a></div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </section>   
+       
+        </div>
+                
+        <!--============= Product Details Section Ends Here =============-->
+    
+    
+        <!--============= Footer Section Starts Here =============-->
+        <footer class="">
+            <div class="footer-top padding-bottom padding-top">
+                <div class="container">
+                    <div class="row mb--60">
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-widget widget-links">
+                                <h5 class="title">Auction Categories</h5>
+                                <ul class="links-list">
+                                    <li>
+                                        <a href="#0">Ending Now</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Vehicles</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Watches</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Electronics</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Real Estate</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Jewelry</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Art</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Sports & Outdoor</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-widget widget-links">
+                                <h5 class="title">About Us</h5>
+                                <ul class="links-list">
+                                    <li>
+                                        <a href="#0">About Sbidu</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Help</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Affiliates</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Jobs</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Press</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Our blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Collectors' portal</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-widget widget-links">
+                                <h5 class="title">We're Here to Help</h5>
+                                <ul class="links-list">
+                                    <li>
+                                        <a href="#0">Your Account</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Safe and Secure</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Shipping Information</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Contact Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Help & FAQ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-widget widget-follow">
+                                <h5 class="title">Follow Us</h5>
+                                <ul class="links-list">
+                                    <li>
+                                        <a href="#0"><i class="fas fa-phone-alt"></i>(646) 663-4575</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0"><i class="fas fa-blender-phone"></i>(646) 968-0608</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0"><i class="fas fa-envelope-open-text"></i><span class="__cf_email__"
+                                                data-cfemail="e8808d8498a88d868f879c808d858dc68b8785">[email&#160;protected]</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#0"><i class="fas fa-location-arrow"></i>1201 Broadway Suite</a>
+                                    </li>
+                                </ul>
+                                <ul class="social-icons">
+                                    <li>
+                                        <a href="#0" class="active"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#0"><i class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#0"><i class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#0"><i class="fab fa-linkedin-in"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <!--============= Footer Section Ends Here =============-->
+
+
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="./assets/js/jquery-3.3.1.min.js"></script>
+    <script src="./assets/js/modernizr-3.6.0.min.js"></script>
+    <script src="./assets/js/plugins.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/nice-select.js"></script>
+    <script src="./assets/js/splide.min.js"></script>
+    <script src="assets/js/yscountdown.min.js"></script>
+    <script src="./assets/js/jquery.toast.min.js"></script>
+
+    <script src="./script.js"></script>
+    <!-- <script src="./assets/js/counterup.min.js"></script>
+    <script src="./assets/js/owl.min.js"></script>
+    <script src="./assets/js/magnific-popup.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="./assets/js/main.js"></script> -->
+
+</body>
+
+</html>
